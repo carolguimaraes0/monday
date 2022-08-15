@@ -1,0 +1,100 @@
+.gameCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.championship {
+    font-size: .88rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+}
+
+.time {
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.25rem;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+}
+
+.streamingsTv {
+    font-size: .88rem;
+    font-weight: 300;
+    line-height: 1rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    padding: 1rem;
+}
+
+.teamShortName {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.teamName {
+    font-size: .88rem;
+    font-weight: 300;
+    line-height: 1rem;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.team1-info {
+    text-align: right;
+}
+
+.team2-info {
+    text-align: left;
+}
+
+.teamShield  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    vertical-align: middle;
+
+}
+
+.teamShield img {
+    max-width: 2rem;
+    height: 2rem;
+}
+
+.team1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: space-between;
+    align-items: normal;
+    gap: 1rem;
+}
+
+.team2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: normal;
+    justify-content: space-between;
+    align-items: normal;
+    gap: 1rem;
+}
+
+.teamsPlaying {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    gap: 2.5rem;
+}
+
+.hr.solid {
+    border: .88rem solid #919191;
+  }
