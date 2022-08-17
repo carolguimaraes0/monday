@@ -6,12 +6,11 @@ class GamesList extends React.Component {
     render() {
         return (
             <div className="GameList">
-                <Games />
-                <Games />
-                <Games />
-                <Games />
-                <Games />
-                <Games />
+                {
+                this.props.jogos.map((jogo) => {
+                    return (<Games jogo={jogo}/>);
+                })
+                }
             </div>
         )
     }

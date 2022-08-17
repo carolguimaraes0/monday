@@ -14,21 +14,36 @@
 }
 
 .time {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 1.25rem;
+    font-weight: 600;
     text-align: center;
-    line-height: 1.25rem;
+    line-height: 1.75rem;
     color: rgba(0, 0, 0, 0.6);
     padding: 1rem;
 }
 
 .streamingsTv {
     font-size: .88rem;
-    font-weight: 300;
+    font-weight: 500;
     line-height: 1rem;
     text-align: center;
     color: rgba(0, 0, 0, 0.6);
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.streamingsTvInput {
+    margin: 2rem;
+    width: 21rem;
+    padding: .66rem 1rem;
+    border: 1px solid #919191;
+    border-radius: 4px;
+    font-size: .77rem;
+    font-weight: 500;
+
 }
 
 .teamShortName {
@@ -43,6 +58,7 @@
     font-weight: 300;
     line-height: 1rem;
     color: rgba(0, 0, 0, 0.6);
+    min-width: 20rem;
 }
 
 .team1-info {
@@ -90,7 +106,10 @@
 .teamsPlaying {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    justify-items: center;
     align-items: center;
+    align-content: center;
     padding: 1rem;
     gap: 2.5rem;
 }
